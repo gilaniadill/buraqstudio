@@ -1,0 +1,185 @@
+<!-- BANNER SECTION START HERE -->
+<section class="sub-banner-con w-100 float-left light-bg main-box position-relative">
+    <div class="wrapper1417">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="abt-desgin-content">
+                    <h1 class="sub-banner-heading">About Us</h1>
+                    <p>From spaces to software, we blend design, construction, and technology to inspire and connect.
+                    </p>
+                    <div class="breadcrumb-con d-inline-block">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">About</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <figure>
+                    <img src="assets/images/about-baner-img.jpg" alt="image" class="img-fluid">
+                </figure>
+            </div>
+            <!-- sub banner inner con -->
+        </div>
+        <!--  -->
+    </div>
+    <!-- sub banner con -->
+</section>
+<!-- BANNER SECTION END HERE -->
+<!-- ABOUT US DESIGNING SECTION START HERE -->
+<section class="about-us-designing-con w-100 float-left position-relative padding-top padding-bottom main-box">
+    <div class="container wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <figure>
+                    <img src="assets/images/about-designing-img2.jpg" alt="design" class="img-fluid">
+                </figure>
+                <!-- col -->
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="about-designing-content-con">
+                    <div class="generic-title mb-0 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <span class="d-block">About us</span>
+                        <h2>Designing Spaces,
+                            Defining Lifestyles</h2>
+                        <p>We are a multidisciplinary team driven by a passion for creating and innovating. Our journey
+                            blends the artistry of architecture with the elegance of refined interior design, brought to
+                            life through expert construction.</p>
+                        <p *ngIf="showMore" class="last-text">
+                            Beyond the physical spaces we build, we extend our creativity into the digital world with
+                            cutting-edge software development—designing solutions that enhance experiences, improve
+                            efficiency, and connect people. Whether shaping a skyline, transforming a room, or crafting
+                            intelligent digital tools, we are committed to delivering work that inspires and endures.
+                        </p>
+
+                        <a class="primary-btn text-white" (click)="showMore=!showMore">{{showMore? 'Show Less': 'Show More'}}
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <!-- about designing content con -->
+                </div>
+                <!-- col -->
+            </div>
+            
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </div>
+</section>
+<!-- ABOUT US DESIGNING SECTION END HERE -->
+<!-- USER SECTION START HERE -->
+<section class="user-main-con w-100 float-left padding-top padding-bottom circle-bg-shapes main-box" id="user">
+    <div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+        <div class="user-inner-con">
+            <div class="user-heading-con wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
+                <h3>User-Driven Designs,
+                    Creatively Realized</h3>
+                <p>Empowering our users to bring their unique design
+                    visions to life with creativity and precision.</p>
+            </div>
+            <div class="users-details-con wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.3s">
+                <div class="user-detrail-box">
+                    <figure>
+                        <img src="assets/images/user-detail-img1.png" alt="user-detail-img1">
+                    </figure>
+                    <span class="d-inline-block count">9</span><span class="d-inline-block alphabet">k</span><sup
+                        class="d-inline-block align-middle">+</sup>
+                    <p>Interior Designed Worldwide</p>
+                </div>
+                <div class="user-detrail-box">
+                    <figure>
+                        <img src="assets/images/user-detail-img2.png" alt="user-detail-img2">
+                    </figure>
+                    <span class="d-inline-block count">100</span><span class="d-inline-block alphabet">%</span>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="user-detrail-box">
+                    <figure>
+                        <img src="assets/images/user-detail-img3.png" alt="user-detail-img3">
+                    </figure>
+                    <span class="d-inline-block count">5</span><sup class="d-inline-block align-middle">+</sup>
+                    <p>Professional Architects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- USER SECTION END HERE -->
+<!-- OUR TEAM SECTION START HERE -->
+<section class="our-team-con w-100 float-left padding-top padding-bottom position-relative light-bg main-box">
+    <div class="container wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
+        <div class="generic-title text-center">
+            <span class="d-block">Our Team</span>
+            <h2>Meet the Team <br> Behind Us</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="team-box text-center position-relative">
+                    <figure><img src="assets/images/team-person1.jpg" alt="image" class="img-fluid">
+                    </figure>
+                    <h6>Mehmood Malik</h6>
+                    <span class="designation text-color d-block">Principal Architect</span>
+                    <!-- <ul class="list-unstyled p-0 mb-0">
+                        <li class="d-inline-block"><a href="https://www.facebook.com/login/" class="ml-0"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="d-inline-block"><a href="https://www.instagram.com/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="d-inline-block"><a href="https://www.youtube.com/"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </li>
+                    </ul> -->
+                    <!-- team box -->
+                </div>
+                <!-- col -->
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="team-box text-center position-relative">
+                    <figure><img src="assets/images/team-person2.jpg" alt="image" class="img-fluid">
+                    </figure>
+                    <h6>Hameed Sheikh</h6>
+                    <span class="designation text-color d-block">CEO</span>
+                    <!-- <ul class="list-unstyled p-0 mb-0">
+                        <li class="d-inline-block"><a href="https://www.facebook.com/login/" class="ml-0"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="d-inline-block"><a href="https://www.instagram.com/"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="d-inline-block"><a href="https://www.youtube.com/"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </li>
+                    </ul> -->
+                    <!-- team box -->
+                </div>
+                <!-- col -->
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="team-box text-center position-relative">
+                    <figure><img src="assets/images/t3.jpg" height="331px" alt="image" class="img-fluid">
+                    </figure>
+                    <h6>Adil Gilani</h6>
+                    <span class="designation text-color d-block">Software Engineer</span>
+                 <!-- team box -->
+                </div>
+                <!-- col -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </div>
+    <!-- our team con -->
+</section>
+<!-- OUR TEAM SECTION END  HERE -->
+<!-- VIDEO SECTION START HERE-->
+
+<!-- VIDEO SECTION END HERE -->
+<!-- CLIENT SECTION START HERE -->
+
+<!-- CLIENT SECTION END HERE -->
+<app-footer></app-footer>
+
+<router-outlet></router-outlet>
